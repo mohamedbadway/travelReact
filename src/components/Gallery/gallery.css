@@ -1,0 +1,20 @@
+.main-container{
+    margin: 0;
+    padding: 0;
+}
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.images-container img{
+    margin: 10px;
+   border-radius: 10px;
+   transition: tranform 5s;
+   width: 205px;
+   height: auto;
+}
+.images-container img:hover{
+    transform: scale(1.04);
+}
